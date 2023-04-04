@@ -1,6 +1,0 @@
-﻿  SparsMatrix.cpp
-  main.cpp
-  Generating Code...
-main.obj : error LNK2019: unresolved external symbol "public: __thiscall SparseMatrix::SparseMatrix(int,int,int)" (??0SparseMatrix@@QAE@HHH@Z) referenced in function _main
-SparsMatrix.obj : error LNK2001: unresolved external symbol "public: __thiscall SparseMatrix::SparseMatrix(int,int,int)" (??0SparseMatrix@@QAE@HHH@Z)
-C:\Users\JunYeong\source\repos\Matrix\Debug\Matrix.exe : fatal error LNK1120: 1 unresolved externals
