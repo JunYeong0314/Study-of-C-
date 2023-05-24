@@ -23,7 +23,9 @@ private:
         Employee data;
         Node* left;
         Node* right;
-
+        
+        Node(Employee data, Node* left, Node* right)
+        :data(data), left(left), right(right){}
     };
 
     Node* root;
@@ -32,7 +34,7 @@ public:
     BinaryTree() : root(nullptr) {}
 
     void insert(const Employee& employee) {
-        Node* newNode = new Node{employee, nullptr, nullptr};
+        Node* newNode = new Node(employee, nullptr, nullptr);
         newNode->left = nullptr;
         newNode->right = nullptr;
         newNode->data = employee;
